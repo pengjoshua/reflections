@@ -1,0 +1,29 @@
+When would you want to use a remote repository rather than keeping all your work
+local?
+
+    So other people can contribute to your work and suggest possible changes. Having a remote repository allows both you and other people to work on the same source files.
+
+Why might you want to always pull changes manually rather than having Git
+automatically stay up-to-date with your remote repository?
+
+    It may be helpful to have another version of your repository stored on GitHub which is different than your local repository. For example, if you want your GitHub repository to only show production-ready programs (branches) and not any "in-progress" or rough draft/unfinished versions of your code.  
+
+Describe the differences between forks, clones, and branches.  When would you
+use one instead of another?
+
+    Forks are essentially clones of repositories on GitHub that exist only in your GitHub repository. Clones are copies of repositories stored locally. Branches are copies of commits (not the whole repository) and their version history.
+
+What is the benefit of having a copy of the last known state of the remote
+stored locally?
+
+    In case you would like to revert back to a previous commit that is not available anymore in your GitHub repository.
+
+How would you collaborate without using Git or GitHub?  What would be easier,
+and what would be harder?
+
+    I would use Google Docs to work on the same file. I would highlight any of my changes and leave comments describing my specific changes. In this case, the merge would automatically take place as we are editing the document simultaneously and we can address any potential conflicts right then and there. The downside is that we would not have any separate version tracking history for each of our individual changes and the document automatically saves periodically.
+
+When would you want to make changes in a separate branch rather than directly in
+master?  What benefits does each approach have?
+
+    Making changes in a separate branch helps to compartmentalize different functionalities or versions of your file. This way you can work on a new feature, perform an experiment, and/or freely explore how a change may affect your code, while keeping a working master version of your code untouched and unmodified. You can feel at ease working on your code without affecting or breaking your master copy.

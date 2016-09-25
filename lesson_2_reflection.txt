@@ -10,13 +10,23 @@ What value do you think it offers?
 How can you use the staging area to make sure you have one commit per logical
 change?
 
+	You can use git diff to view the changes to each file. Using this information, you can use git add to add only the modified files to the staging area per logical change. You can confirm only the changes you want propagated with git diff --staged. Then you can use git commit to transfers these modified files to the repository. 
+
 What are some situations when branches would be helpful in keeping your history
 organized? How would branches help?
 
+	So you can have multiple working versions of your programs with different settings to switch between instead of having only one version to work from.
+
 How do the diagrams help you visualize the branch structure?
+
+	The diagrams help me to see the reachability of each commit and where I've created branches and how commits relate to each other.
 
 What is the result of merging two branches together? Why do we represent it in
 the diagram the way we do?
 
+	Merging 2 branches together connects them at a single commit. The diagram displays the same commit history information that git does.
+
 What are the pros and cons of Git’s automatic merging vs. always doing merges
 manually?
+
+	Automatic merging is great and saves time and effort from having to resolve changes manually when the changes are in different stubs and areas of the code.
